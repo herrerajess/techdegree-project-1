@@ -88,7 +88,10 @@ header .profile-image:hover {
 } 
 .location {
   background-color: #222;
-  color: yellow;
+  color: white;
+}
+#hobbies {
+  margin-top: 0;
 }
 .card {
   margin: 30px;
@@ -199,6 +202,10 @@ a.social:hover {
     line-height: 1.6em;
   }
 
+  #hobbies {
+    margin-top: -15em;
+  }
+
   footer {
     font-size: 1.3em;
     max-width: 1200px;
@@ -206,4 +213,3 @@ a.social:hover {
   }
 
 }
-

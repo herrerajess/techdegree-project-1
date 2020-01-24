@@ -59,7 +59,7 @@ a:hover {
 
 header {
   text-align: center;
-  background: url('images/portland.jpg') no-repeat top center ;
+  background: url('images/cover.JPG') no-repeat center center ;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
@@ -212,4 +212,8 @@ a.social:hover {
     margin: 40px auto;
   }
 
+}
+
+.list-circle {
+  list-style: circle;
 }

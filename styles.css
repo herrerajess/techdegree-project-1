@@ -8,14 +8,15 @@ body {
   padding: 0;
   text-align: center;
   font-family: 'Roboto', sans-serif;
-  color: #222;
-  background: #f7f5f0;
+  color: #2D3748;
+  background: #EBF8FF;
 }
 /* Link Styles */
 
 a {
   text-decoration: none;
-  color: #999;
+  color: #EBF8FF;
+  font-weight: normal;
 }
 a:hover {
   color: #6633ff;
@@ -54,7 +55,8 @@ a:hover {
   transition: all .5s;
 }
 .nav a:hover {
-  color: white
+  color: white;
+  font-weight: bold;
 }
 
 header {
@@ -72,11 +74,11 @@ header .profile-image {
   width: 150px;
   height: 150px;
   border-radius: 50%;
-  border: 3px solid white;
-  transition: all .5s;
+  border: 4px solid white;
+  transition: all .9s;
 }
 header .profile-image:hover {
-  transform: scale(1.2) rotate(5deg);
+  transform: scale(1.2) rotate(360deg);
 }
 .tag {
   background-color: #efefef;
@@ -105,6 +107,9 @@ header .profile-image:hover {
 }
 .card:hover {
   border-color: #ff99ff;
+}
+.card h2 {
+  color: #1A202C;
 }
 
 ul.skills {
@@ -216,4 +221,19 @@ a.social:hover {
 
 .list-circle {
   list-style: circle;
+}
+
+.flaticon-container {
+  display: -ms-flexbox;      /* TWEENER - IE 10 */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.flaticon-text {
+  font-size: 12px;
+  text-align: center;
+}
+.flaticon-text a {
+  color: grey;
 }
